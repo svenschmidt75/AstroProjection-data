@@ -15,7 +15,7 @@ need many more, fainter stars, so the app downloads these packs once and then so
 |---|---|---|---|
 | Wide-field blind solve | `quads_wide_gt1deg.bin` | 71 MB | Star-pattern index for fields over about 8 degrees |
 | Mid-field blind solve | `quads_mid_0p3_to_2p5deg.bin` | 107 MB | Star-pattern index for fields of 0.3 to 2.5 degrees |
-| Gaia star catalog | `gaia_g15.bin` | 443 MB | About 30 million Gaia DR3 stars down to magnitude 15 |
+| Gaia star catalog | `gaia_g15.bin` | 443 MB | Gaia DR3 stars down to magnitude 15 |
 | Narrow-field blind solve | `quads_narrow_0p1_to_0p6deg.bin` | 331 MB | Star-pattern index for fields of 0.1 to 0.6 degrees (needs the Gaia pack) |
 
 `packs.json` in each release lists every file with its size and SHA-256 checksum. The app checks both after
@@ -45,7 +45,7 @@ The packs are derived from public astronomical data and are provided under the s
   *This work has made use of data from the European Space Agency (ESA) mission Gaia
   (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium (DPAC,
   https://www.cosmos.esa.int/web/gaia/dpac/consortium).*
-- The quad indexes are computed from the Gaia and Hipparcos-based catalogs above and carry the same licence.
+- The quad indexes are computed from star catalogs derived from the data above and carry the same licence.
 
 The full list of data sources and licences for the app is in
 [CREDITS.md](https://github.com/svenschmidt75/AstroProjection/blob/main/CREDITS.md) of the main project.
