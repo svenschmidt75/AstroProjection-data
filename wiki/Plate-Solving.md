@@ -29,6 +29,8 @@ A *quad* is four stars. Its **hash** is a shape code that does not change with i
 
 The hash is the four numbers `(x_C, y_C, x_D, y_D)`.
 
+![A quad in pixels and in the hash frame](img/quad-hash.svg)
+
 **Worked example.** Stars at `A = (0, 0)`, `B = (10, 0)`, `C = (3, 2)`, `D = (6, −1)` pixels. The widest pair is `AB` with `L = 10`. In its frame `C = (0.3, 0.2)`, `D = (0.6, −0.1)`. `x_C + x_D = 0.9 ≤ 1` and `x_C < x_D`, so the hash is **(0.3, 0.2, 0.6, −0.1)**. Scale the picture by 2, rotate it by 30° and shift it, and the hash is the same, which is why a quad seen in a photo can be found in a catalog.
 
 ## 3. The quad catalogs and their tiers

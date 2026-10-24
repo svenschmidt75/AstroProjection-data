@@ -87,6 +87,8 @@ The shader uses this, plus the phase angle, to draw the terminator.
 
 Mercury and Venus use exactly the same `i` and `k`: they show crescents when between us and the Sun (large `i`) and are nearly full when beyond it (small `i`), but then lie so close to the Sun that they are hard to see.
 
+![The Moon phase from its elongation, eight positions](img/moon-phase.svg)
+
 ## Brightness (visual magnitude)
 
 Planets: `V = V₀ + 5 log₁₀(r Δ) + c·i` with `r` the Sun distance and `Δ` the Earth distance in AU, `i` in degrees:

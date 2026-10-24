@@ -15,6 +15,8 @@ r(theta) = (1 + m) · tan( theta / (1 + m) )
 | 0 | Flat (rectilinear, gnomonic) | `tan theta` | straight lines stay straight (great circles are lines) | shapes stretch by `1/cos²(theta)` towards the edges |
 | 1 | Stereographic | `2 tan(theta/2)` | shapes stay true (it is *conformal*: circles stay circles) | great circles bend |
 
+![A grid and circles under the flat, blended and stereographic projections](img/sky-projections.svg)
+
 ### Why two, and why a blend
 
 Wide views are the problem. With the flat projection, a figure 45° off the centre is drawn 2× too large along the radius and 4× at 60°, so panning a wide view shears the constellations and stars turn into ovals at the edges. The stereographic projection avoids that, as in Stellarium and SkySafari, and it can show 120° across. But a narrow view (a photo, a nebula) should stay flat: straight lines and the exact pixel-to-sky mapping of an image matter more than distortion that is still tiny at 10°. So `m` follows the field of view: `m = 0` while the long side of the view is up to 30°, `m = 1` from 60°, and a smooth step in between.

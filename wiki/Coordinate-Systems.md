@@ -76,6 +76,8 @@ y_ec =  y_eq cos ε + z_eq sin ε
 z_ec = -y_eq sin ε + z_eq cos ε       λ = atan2(y_ec, x_ec),  β = asin z_ec
 ```
 
+![The sphere with the equator, the ecliptic and Vega in both systems](img/ecliptic-to-equatorial.svg)
+
 ### Worked example
 
 Vega again: `(x, y, z) = (cos δ cos α, cos δ sin α, sin δ) = (0.1250, −0.7692, 0.6267)`.

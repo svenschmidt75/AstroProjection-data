@@ -14,6 +14,8 @@ z = sin λ sin ε₀
 
 Equivalently, the ecliptic is the plane through the origin perpendicular to the **ecliptic pole** `(0, −sin ε₀, cos ε₀)`, which is at RA 18h, Dec +66.56°.
 
+![The ecliptic on a map of right ascension and declination](img/ecliptic-on-the-sky.svg)
+
 ## How it is drawn
 
 The line is 360 segments, one per degree of λ, each a pair of ICRS vertices. They are sent to the same line shader as constellation lines, which projects every vertex through the camera each frame. Because the points are in ICRS they do not need updating when time passes; only the camera moves. One degree per segment is smooth at every zoom the app offers for a circle of this size.
