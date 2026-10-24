@@ -47,6 +47,8 @@ minor / major axis ratio = |sin B|
 
 and the major axis is perpendicular to the on-sky direction of the pole (section 5).
 
+![Ring tilt B from 2000 to 2040 and the ring ellipse at five dates](img/saturn-ring-tilt.svg)
+
 ### Why the formula is that
 
 Take axes where the ring plane is the floor. A ring particle at radius `R` has coordinates `(R cos u, R sin u, 0)`. Look at the floor from a height angle `B` above it: the width across the line of sight stays `R cos u`, but the depth along our line of sight is foreshortened by `sin B`, giving `R sin u sin B`. That is an ellipse with semi-axes `R` and `R sin B`. The height angle of the line of sight above the floor is, by definition, the angle between `-d` and the floor, and `sin` of it is `-d · p` since `p` is the floor's normal. (An orthographic view, see [Projections](Projections.md), is what makes this exact: the planet is so far away that all view rays are parallel.)
