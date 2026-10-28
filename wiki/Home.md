@@ -8,6 +8,7 @@ How the numbers and pictures in AstroProjection are produced, with the formulas 
 | [Coordinate Systems](Coordinate-Systems.md) | RA/Dec, Alt/Az and ecliptic coordinates, and how to convert between them |
 | [The Ecliptic Line](The-Ecliptic-Line.md) | How the yellow ecliptic line is calculated and drawn |
 | [Solar System Positions](Solar-System-Positions.md) | Where the Sun, Moon and planets are; phases and magnitudes |
+| [Rise, Transit and Set](Rise-Transit-Set.md) | When an object rises, crosses the meridian and sets, and how the info card finds the next ones |
 | [Projections](Projections.md) | How directions become screen points: the flat/stereographic sky family, and why planets are drawn orthographically |
 | [Saturn's Rings](Saturns-Rings.md) | Ring tilt `B` for an observer on Earth, its position angle, per-pixel ring radius, occlusion and shadow |
 | [Jupiter's Great Red Spot](Jupiters-Great-Red-Spot.md) | Where the spot is on the planet and when it crosses the middle |
