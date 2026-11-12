@@ -13,6 +13,7 @@ How the numbers and pictures in AstroProjection are produced, with the formulas 
 | [Saturn's Rings](Saturns-Rings.md) | Ring tilt `B` for an observer on Earth, its position angle, per-pixel ring radius, occlusion and shadow |
 | [Jupiter's Great Red Spot](Jupiters-Great-Red-Spot.md) | Where the spot is on the planet and when it crosses the middle |
 | [Plate Solving](Plate-Solving.md) | How a photo is placed on the sky: centroids, quad hashing, tiers, verification |
+| [Tree-Line Horizons](Tree-Line-Horizons.md) | Planned: scanning the tree line with a phone, anchoring the heading on the Sun, and when an object clears the trees |
 
 ## Conventions used throughout
 
